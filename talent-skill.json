@@ -4455,8 +4455,8 @@
             "talent_skill_name":"Mirror of Grace",
             "talent_skill_description":"100% chance to inflict Chaos & Restriction on target (cannot control character and use jutsu) (2 turns). Reduce target damage by 100% for 3 turns",
             "talent_skill_damage":0,
-            "talent_skill_cp_cost":9.6,
-            "skill_cooldown":18,
+            "talent_skill_cp_cost":3.6,
+            "skill_cooldown":10,
             "skill_target":"Target",
             "effects":[
                {
@@ -4464,7 +4464,7 @@
                   "is_debuff":true,
                   "effect":"chaos",
                   "effect_name":"Chaos",
-                  "duration":2,
+                  "duration":3,
                   "calc_type":"percent",
                   "amount":100
                },
@@ -4473,7 +4473,7 @@
                   "is_debuff":true,
                   "effect":"restriction",
                   "effect_name":"Restriction",
-                  "duration":2,
+                  "duration":3,
                   "calc_type":"percent",
                   "amount":100
                },
@@ -12251,12 +12251,12 @@
          "item_id":"talent_forest_skill_1_level_5",
          "effects":{
             "talent_skill_name":"Nature Power",
-            "talent_skill_description":"12% chance to recover 3% HP & CP when using water and Earth skills",
+            "talent_skill_description":"55% chance to recover 10% HP & CP when using water and Earth skills",
             "talent_skill_damage":0,
             "talent_skill_cp_cost":0,
             "skill_cooldown":0,
-            "chance":12,
-            "amount":3
+            "chance":55,
+            "amount":10
          }
       },
       {
@@ -12471,9 +12471,9 @@
          "effects":{
             "talent_skill_name":"Secret Enraged Forest: Smothering Bind",
             "talent_skill_description":"Stun target (2 turn)",
-            "talent_skill_damage":5.2,
-            "talent_skill_cp_cost":6.88,
-            "skill_cooldown":16,
+            "talent_skill_damage":8.5,
+            "talent_skill_cp_cost":2.88,
+            "skill_cooldown":10,
             "skill_target":"Target",
             "effects":[
                {
@@ -12481,7 +12481,7 @@
                   "is_debuff":true,
                   "effect":"stun",
                   "effect_name":"Stun",
-                  "duration":2,
+                  "duration":3,
                   "calc_type":"number"
                }
             ]
@@ -12594,9 +12594,9 @@
          "effects":{
             "talent_skill_name":"Secret Enraged Forest: Matsuri",
             "talent_skill_description":"Entwine target with explosion of giant branches of a tree.",
-            "talent_skill_damage":8.5,
-            "talent_skill_cp_cost":5.56,
-            "skill_cooldown":16
+            "talent_skill_damage":20.1,
+            "talent_skill_cp_cost":2.56,
+            "skill_cooldown":10
          }
       },
       {
@@ -13967,11 +13967,11 @@
          "item_id":"talent_bones_skill_1_level_5",
          "effects":{
             "talent_skill_name":"Marrow Shield",
-            "talent_skill_description":"Has 3% chance to block attack damage. Recovers 3% of user's max HP when afflicted by debuffs/negative status. ",
+            "talent_skill_description":"Has 20% chance to block attack damage. Recovers 20% of user's max HP when afflicted by debuffs/negative status. ",
             "talent_skill_damage":0,
             "talent_skill_cp_cost":0,
             "skill_cooldown":0,
-            "chance":3
+            "chance":20
          }
       },
       {
@@ -14034,9 +14034,9 @@
          "effects":{
             "talent_skill_name":"Zephyr Bone Barrage",
             "talent_skill_description":"Attack target and make them vulnerable. They take 5% more damage and deal 5% less damage. (1 turn)",
-            "talent_skill_damage":1,
-            "talent_skill_cp_cost":1,
-            "skill_cooldown":20,
+            "talent_skill_damage":10.2,
+            "talent_skill_cp_cost":3.1,
+            "skill_cooldown":10,
             "skill_target":"Target",
             "effects":[
                {
@@ -14044,9 +14044,9 @@
                   "is_debuff":true,
                   "effect":"vulnerable",
                   "effect_name":"Vulnerable",
-                  "duration":1,
+                  "duration":3,
                   "calc_type":"percent",
-                  "amount":5
+                  "amount":60
                }
             ]
          }
@@ -14254,9 +14254,9 @@
          "effects":{
             "talent_skill_name":"Incursion of the Ivory Spikes",
             "talent_skill_description":"Inflict weaken by 10% and reduces agility by 5% for 1 turn.",
-            "talent_skill_damage":1,
-            "talent_skill_cp_cost":1,
-            "skill_cooldown":20,
+            "talent_skill_damage":11,
+            "talent_skill_cp_cost":1.2,
+            "skill_cooldown":10,
             "skill_target":"Target",
             "effects":[
                {
@@ -14264,18 +14264,18 @@
                   "is_debuff":true,
                   "effect":"weaken",
                   "effect_name":"Weaken",
-                  "duration":1,
+                  "duration":3,
                   "calc_type":"percent",
-                  "amount":10
+                  "amount":70
                },
                {
                   "is_self_buff":false,
                   "is_debuff":true,
                   "effect":"slow",
                   "effect_name":"Slow",
-                  "duration":1,
+                  "duration":3,
                   "calc_type":"percent",
-                  "amount":5
+                  "amount":50
                }
             ]
          }
@@ -14559,9 +14559,4 @@
             ]
          }
       }
-   ],
-   "enc_data":{
-      "iv":"bbf694ae447d5c5c925d1b9ae86a3d39",
-      "encryptedData":"7da52582be60n558k1bece2c31ce48e48e7b2bf0b85320a15e964430b8fccad8c1e198d04ecea6327eed68b68f797f97f245451af1416d7c97692034defdabfed054d495e4c0c69cceebd8a6d2196a48c99183649b1e33c6c4d6215c8d1544bd15652270c53428be2525d2e3efb5020afddcc71b428d73261ccd6ecbe05d3ae10f7eb07ebbf4728706b1af7bd93d6f6e9ae798bc3170cb09c10233550a8a31395c01d9be7269b7645f3409f5ab2f985cd84ceadda3166059df52367604426210eea88c20bfeeef5526e53efd5a8c2a8c"
-   }
-}
+   ]
