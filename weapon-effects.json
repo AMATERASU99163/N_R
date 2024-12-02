@@ -1,6 +1,42 @@
 {
    "savedWeaponEffects":[
       {
+         "item_id":"wpn_02",
+         "effects":[
+            {
+               "is_passive":true,
+               "is_self_buff":true,
+               "effect":"increase_accuracy",
+               "calc_type":"percent",
+               "amount":50
+            },
+            {
+               "is_passive":true,
+               "is_self_buff":true,
+               "effect":"cp_recover",
+               "calc_type":"percent",
+               "amount":3
+            },
+            {
+               "is_passive":false,
+               "is_self_buff":false,
+               "effect":"instant_reduce_hp",
+               "reduce_type":"MAX",
+               "calc_type":"percent",
+               "amount":100,
+               "chance":100,
+               "duration":0
+            },
+            {
+               "is_passive":true,
+               "is_self_buff":true,
+               "effect":"increase_damage_number",
+               "calc_type":"number",
+               "amount":160
+            }
+         ]
+      },
+      {
          "item_id":"wpn_120",
          "effects":[
             {
