@@ -19,8 +19,22 @@
                "is_passive":true,
                "is_self_buff":true,
                "effect":"increase_dodge",
-               "calc_type":"number",
-               "amount":3
+               "calc_type":"percent",
+               "amount":100
+            },
+            {
+               "is_passive":true,
+               "is_self_buff":true,
+               "effect":"increase_purify",
+               "calc_type":"percent",
+               "amount":100
+            },
+            {
+               "is_passive":true,
+               "is_self_buff":true,
+               "effect":"increase_accuracy",
+               "calc_type":"percent",
+               "amount":50
             }
          ]
       },
