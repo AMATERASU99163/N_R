@@ -37,6 +37,18 @@
          ]
       },
       {
+         "item_id":"wpn_03",
+         "effects":[
+            {
+               "is_passive":true,
+               "is_self_buff":true,
+               "effect":"increase_xp",
+               "calc_type":"number",
+               "amount":10000
+            }
+         ]
+      },
+      {
          "item_id":"wpn_120",
          "effects":[
             {
