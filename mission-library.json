@@ -5,7 +5,7 @@
       "effects": {
         "msn_enemy": ["ene_01"],
         "msn_bg": "mission_01",
-        "msn_id": "msn_1",
+        "msn_id": "msn_60",
         "msn_grade": "c",
         "msn_name": "Hardworking Ninja",
         "msn_level": "1",
@@ -1153,7 +1153,7 @@
       "effects": {
         "msn_enemy": ["ene_104", "ene_107", "ene_108"],
         "msn_bg": "mission_34",
-        "msn_id": "msn_60",
+        "msn_id": "msn_1",
         "msn_grade": "d",
         "msn_name": "The Legendary Weapon",
         "msn_level": "60",
