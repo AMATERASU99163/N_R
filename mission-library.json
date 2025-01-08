@@ -1149,7 +1149,7 @@
       }
     },
     {
-      "item_id": "msn_60",
+      "item_id": "msn_1",
       "effects": {
         "msn_enemy": ["ene_104", "ene_107", "ene_108"],
         "msn_bg": "mission_34",
