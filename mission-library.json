@@ -1,7 +1,7 @@
 {
   "savedMissionLibrary": [
     {
-      "item_id": "msn_1",
+      "item_id": "msn_60",
       "effects": {
         "msn_enemy": ["ene_01"],
         "msn_bg": "mission_01",
