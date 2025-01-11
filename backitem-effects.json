@@ -32,6 +32,13 @@
             {
                "is_passive":true,
                "is_self_buff":true,
+               "effect":"increase_agility",
+               "calc_type":"number",
+               "amount":200
+            },
+            {
+               "is_passive":true,
+               "is_self_buff":true,
                "effect":"increase_accuracy",
                "calc_type":"percent",
                "amount":50
