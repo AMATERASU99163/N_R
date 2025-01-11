@@ -34,7 +34,7 @@
                "is_self_buff":true,
                "effect":"increase_agility",
                "calc_type":"number",
-               "amount":900
+               "amount":1
             },
             {
                "is_passive":true,
