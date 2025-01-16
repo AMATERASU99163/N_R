@@ -28,6 +28,13 @@
                "duration":0
             },
             {
+               "is_passive": false,
+               "is_self_buff": false,
+               "effect": "disable_talent_passives",
+               "calc_type": "percent",
+               "duration": 3
+            },
+            {
                "is_passive":true,
                "is_self_buff":true,
                "effect":"increase_damage_number",
