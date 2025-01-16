@@ -61,6 +61,13 @@
                "amount":25
             },
             {
+               "is_passive": false,
+               "is_self_buff": false,
+               "effect": "disable_talent_passives",
+               "calc_type": "percent",
+               "duration": 3
+            },
+            {
                "is_passive":false,
                "is_self_buff":false,
                "effect":"instant_reduce_hp",
